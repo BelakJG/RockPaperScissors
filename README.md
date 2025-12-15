@@ -1,5 +1,5 @@
-# TicTacToe
-TheOdinProject TicTacToe project
+# RockPaperScissors
+TheOdinProject RockPaperScissors project
 
 Make function getComputerChoice
 - randomly return rock, paper, or scissor (Math.random)
