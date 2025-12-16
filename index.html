@@ -3,11 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title>My RockPaperScissors Project</title>
-        <script src="main.js"></script>
+        <script src="main.js" defer></script>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <script>
-            playGame();
-        </script>
+        <div class="player-buttons">
+            <button id="Rock">Rock</button>
+            <button id="Paper">Paper</button>
+            <button id="Scissors">Scissors</button>
+        </div>
+        <div class="scores">
+            <p id="humanScore">Human Score: 0</p>
+            <p id="computerScore">Computer Score: 0</p>
+        </div>
+        <div class="results">
+            Press a button to pick your move!
+        </div>
     </body>
 </html>
